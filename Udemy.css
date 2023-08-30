@@ -1,0 +1,1016 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 12.5vh;
+  width: 100%;
+  border-bottom: 1px solid black;
+  justify-content: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.212) 5px 5px 5px;
+  /* position: fixed; */
+}
+header img {
+  height: 14.5vh;
+  width: 9vw;
+}
+.general {
+  display: flex;
+  width: 77vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header input {
+  width: 33vw;
+  height: 4.5vh;
+  padding: 7px;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+}
+
+.two {
+  width: 36vw;
+  height: 5vh;
+  border-radius: 30px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  background-color: #01161c0c;
+  padding: 10px;
+  position: relative;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 450;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+}
+
+a:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+.general i:hover {
+  color: blueviolet;
+}
+
+.btn2:hover {
+  opacity: 0.75;
+}
+
+.btn3:hover,
+.btn1:hover {
+  background-color: whitesmoke;
+}
+
+.three {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 18%;
+  height: 100%;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  width: 6.5vw;
+  height: 7vh;
+  background-color: white;
+  border: 1px solid black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
+
+.btn2 {
+  border: none !important;
+  background-color: black !important;
+  color: white !important;
+}
+
+.btn3 {
+  width: 3vw;
+}
+
+.dropdown_contents {
+  padding: 20px;
+  height: 80vh;
+  width: 200px;
+  display: none;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.212) 5px 5px 10px;
+  position: absolute;
+}
+
+.category_dropdown:hover .dropdown_contents {
+  display: flex;
+}
+
+.busdiv,
+.teachdiv,
+.categorydiv,
+.three {
+  height: 14vh;
+  width: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.udemybus_dropdown:hover .udemybus_contents,
+.teachonudemy_dropdown:hover .teachonudemy_contents,
+.cart_dropdown:hover .cart_contents {
+  display: flex;
+}
+
+.udemybus_contents,
+.teachonudemy_contents,
+.cart_contents {
+  height: 30vh;
+  width: 280px;
+  background-color: white;
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.udemybusdiv,
+.teachonudemydiv,
+.cartdiv {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.udemybusp,
+.teachonudemyp {
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 900;
+}
+
+.udemybusdiv button,
+.teachonudemydiv button {
+  height: 10vh;
+  width: 250px;
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  border: none;
+}
+
+.cart_contents {
+  width: 250px !important;
+  height: 15vh !important;
+}
+
+.cartdiv p {
+  font-size: 20px;
+}
+
+.cartdiv h4 {
+  font-size: medium;
+  color: blueviolet;
+}
+.cartdiv h4:hover {
+  color: purple;
+}
+
+.sec1 {
+  height: 70vh;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  /* display: flex; */
+  /* align-items: center; */
+  /* padding-right: 50px; */
+}
+
+.sec0 {
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./udemy\ front2.jpg);
+}
+
+.secone,
+.seconediv1 {
+  width: 47vw;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
+
+.secone div {
+  width: 30vw;
+  height: 40vh;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.seconediv1 {
+  width: 32vw !important ;
+  justify-content: space-between !important;
+  background-color: white;
+}
+
+.secone h1 {
+  font-size: 33px;
+  font-weight: 800;
+}
+
+.secone p {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sec2 {
+  height: 40vh;
+  background-color: hsla(193, 93%, 6%, 0.047);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec2 div {
+  height: 10vh;
+}
+.sec2 p {
+  font-size: 23px;
+}
+
+.sec3 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.sec3 img {
+  width: 7vw;
+}
+
+.sec3 div {
+  display: flex;
+  width: 10vw;
+}
+.sec4 {
+  background-color: white;
+  height: 165vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sec4main {
+  justify-content: space-around;
+  display: flex;
+  width: 97%;
+  flex-direction: column;
+  height: 80%;
+}
+
+.broad {
+  height: 30vh;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+
+.broadsub {
+  height: 40vh;
+  justify-content: space-between;
+  align-items: end;
+  display: flex;
+}
+.broad h2 {
+  font-size: 35px;
+  font-weight: 900;
+  color: black;
+}
+
+.choose {
+  font-size: 21px;
+}
+
+.python {
+  display: flex;
+  justify-content: space-around;
+  width: 62vw;
+}
+.python button {
+  border: none;
+  background: transparent;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.python button:hover {
+  color: black;
+}
+
+.videodiv,
+.WA,
+.quotepara,
+.learners h2,
+.coursefig p,
+.coursefig span,
+.coursefig h3,
+.python button,
+.student,
+.fig,
+.dev,
+.sec7main h2,
+.topics,
+.udemybusiness,
+.sec10main {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.expandmain {
+  height: 110vh;
+  display: flex;
+  border: 0.5px solid grey;
+  justify-content: space-between;
+  align-items: center;
+}
+.expand {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  width: 97%;
+}
+
+.expandsub {
+  width: 97%;
+  justify-content: center;
+  height: 107vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 35vh;
+  width: 100%;
+}
+
+.buttonx,
+.sec8main button {
+  width: 10.7vw;
+  height: 8vh;
+  border: 1px solid black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  background-color: transparent;
+}
+
+.buttonx:hover {
+  background-color: whitesmoke;
+}
+
+.pythoncoursecards {
+  display: flex;
+  width: 93vw;
+  height: 62vh;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.coursefig {
+  width: 18vw;
+  height: 55vh;
+  justify-content: space-between;
+}
+
+.coursefig img {
+  width: 100%;
+  height: 50%;
+  border: 1px solid rgba(214, 203, 203, 0.644);
+}
+
+.coursefig img:hover {
+  opacity: 0.7;
+}
+
+.coursefig h3 {
+  font-size: 18px;
+}
+
+.coursefig p,
+.coursefig span {
+  font-weight: 650;
+}
+
+.coursefig p del {
+  font-weight: 100 !important;
+}
+
+.coursefig i {
+  color: goldenrod;
+  font-size: small;
+}
+
+.sec5 {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.goals {
+  height: inherit;
+  width: 99%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.learners {
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+  width: inherit;
+  /* border: 1px solid black; */
+  margin-top: 60px;
+}
+
+.learners h2 {
+  font-size: 25px;
+}
+.quote {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: inherit;
+  height: 75vh;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.quotediv {
+  width: 30vw;
+  height: 65vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border: 1px solid grey;
+}
+
+.quoteicon {
+  display: flex;
+  align-items: start;
+  width: 90%;
+  height: 5vh;
+  font-size: 30px;
+}
+
+.quotepara {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 90%;
+  height: 50vh;
+  font-size: 17px;
+}
+
+.willA {
+  display: flex;
+  width: 90%;
+  justify-content: flex-start;
+  align-self: center;
+  height: 15vh;
+  border-bottom: 0.1px solid black;
+}
+
+.WA {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 900;
+  font-size: 12px;
+  background-color: rgba(5, 0, 5, 0.79);
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  position: relative;
+  right: 2%;
+}
+
+.videodiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  font-weight: 700;
+  font-size: 18px;
+}
+.videodiv i {
+  font-size: 17px;
+  color: royalblue;
+}
+
+.videodiv i:hover {
+  color: blueviolet !important;
+}
+
+.sec6 {
+  background-color: white;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sec6main,
+.sec7main,
+.sec8main {
+  justify-content: space-around;
+  display: flex;
+  width: 97%;
+  height: inherit;
+  flex-direction: column;
+}
+
+.studentmain {
+  height: 70vh;
+  display: flex;
+  border: 0.5px solid black;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 0.2px;
+}
+
+.student {
+  justify-content: start;
+  display: flex;
+  width: 30vw;
+  font-size: 16px;
+  margin-top: 68px;
+}
+
+.studentcoursecards {
+  display: flex;
+  width: 95.5vw;
+  height: 62vh;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.sec7 {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  height: 160vh;
+  width: 100%;
+}
+
+.figdesign {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 95.7vw;
+  height: 150vh;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.fig:hover {
+  transform: scale(1.04);
+}
+
+.fig {
+  width: 23vw;
+  height: 65vh;
+  /* border: 1px solid black; */
+}
+
+.fig img {
+  width: 100%;
+  height: 90%;
+}
+
+.sec8 {
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: space-around;
+  height: 95vh;
+  width: 100%;
+}
+
+.topics {
+  width: 30vw;
+  height: 15vh;
+  display: flex;
+  align-items: end;
+  font-size: 17px;
+}
+
+.featuredcat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  width: 83vw;
+  height: 70vh;
+  margin-bottom: 20px;
+}
+
+.dev {
+  height: 100%;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.devchildren {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 10.5vh;
+  width: 20vw;
+}
+.sec8main button {
+  width: 13vw !important;
+  height: 7.5vh !important;
+}
+
+.sec8main button:hover {
+  background-color: rgba(3, 28, 41, 0.269);
+}
+
+.dev h3 {
+  font-weight: 660;
+  font-size: 20px;
+}
+.devchildren a {
+  font-size: 15.8px;
+  font-weight: 700;
+  color: #5624d0;
+}
+
+.devchildren a:hover {
+  color: purple;
+}
+
+.devchildren p {
+  font-size: 13.5px;
+}
+
+.dev1 {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec9 {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.sec9main {
+  width: 70%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.udemybusiness {
+  width: 50%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.udemybusiness img {
+  width: 15vw;
+}
+.udemybusiness h1 {
+  font-size: 38px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.uldiv {
+  width: 30vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-size: 19px;
+  font-weight: 400;
+}
+.udemybutton1 {
+  height: 9vh;
+  width: 13vw;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+}
+
+.udemybutton2 {
+  height: 9vh;
+  width: 8vw;
+  background-color: white;
+  font-weight: 600;
+  border: 1px solid black;
+}
+
+.udemybutton1:hover {
+  opacity: 0.7;
+}
+.udemybutton2:hover {
+  background-color: whitesmoke;
+}
+
+.udemyfig {
+  width: 50%;
+  height: 82%;
+  margin-top: 40px;
+}
+
+.udemyfig img {
+  width: 100%;
+  height: 100%;
+}
+
+.sec10,
+.sec11,
+.sec12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+  height: 100vh;
+  width: 100%;
+}
+
+.sec10main {
+  border: 1px solid grey;
+  width: 70%;
+  height: 61vh;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  margin-top: 30px;
+}
+.thanks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  width: 35vw;
+  height: 90%;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+.thanks i {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.thanki {
+  display: flex;
+  height: 10vh;
+  width: inherit;
+  align-items: end;
+}
+
+.thanks a {
+  font-size: 18px;
+  font-weight: 700;
+}
+.thanksdiv {
+  width: inherit;
+  height: 23vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: end;
+}
+
+.principal {
+  height: 47vh;
+  width: 20vw;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 70px;
+}
+
+.jim {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url(./James_Hemgen.jpeg);
+  background-size: 100%;
+}
+.jim img {
+  width: 100%;
+  height: 100%;
+}
+
+.hemgen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hemgen b {
+  font-size: 20px;
+}
+
+.stories a {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.sec11 {
+  background-color: white !important;
+}
+
+.sec11main {
+  width: 65%;
+  height: 70vh;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* padding-left: 20px;
+  margin-top: 30px; */
+}
+
+.sec11fig {
+  height: 99%;
+  width: 35vw;
+  margin-right: 50px;
+}
+
+.sec11fig img {
+  width: 100%;
+  height: 100%;
+}
+
+.instructor {
+  height: 40vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+.instructor h1 {
+  font-size: 31.7px;
+  font-weight: 700;
+}
+
+.instructor p {
+  font-size: 18px;
+}
+
+.sec12 {
+  height: 50vh !important;
+  background-color: black !important;
+  color: white;
+}
+
+.sec12main {
+  width: 95%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
+}
+
+.lastcont {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.lastul {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  height: 30vh;
+  padding-top: 20px;
+}
+
+.lastuldiv {
+  height: inherit;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: space-between;
+  color: white !important;
+  align-items: left;
+  line-height: 31px;
+}
+
+.lastuldiv a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.lastul ul {
+  list-style: none;
+}
+
+.lastuldiv a:hover {
+  text-decoration: underline;
+}
+
+.sec12main img {
+  height: 12vh;
+  width: 8vw;
+}
+
+.lastbutton {
+  height: 7vh;
+  width: 11vw;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  margin-top: 20px;
+}
+
+.udemyinc {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
